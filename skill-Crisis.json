@@ -1,0 +1,1464 @@
+{
+  "intents": [
+    {
+      "intent": "Pie-chart",
+      "examples": [
+        {
+          "text": "Pie chart Representation of coronavirus stats"
+        },
+        {
+          "text": "Piechart"
+        },
+        {
+          "text": "Pie chart representation of Covid19 stats"
+        },
+        {
+          "text": "Pie chart"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Testing-kit",
+      "examples": [
+        {
+          "text": "Testing-kit"
+        },
+        {
+          "text": "Testing kit"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Quarantine",
+      "examples": [
+        {
+          "text": "Can someone who has been quarantined for COVID-19 spread the illness to others?"
+        },
+        {
+          "text": "what is the incubation period of this corona virus?"
+        },
+        {
+          "text": "what is a quarantine?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Symptoms",
+      "examples": [
+        {
+          "text": "What are the symptoms of Coronvirus"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Data_visualization",
+      "examples": [
+        {
+          "text": "Data Visualization"
+        },
+        {
+          "text": "Data Visualisation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Current-Stats",
+      "examples": [
+        {
+          "text": "What is the stats on Corona Virus?"
+        },
+        {
+          "text": "Total Cases so Far"
+        },
+        {
+          "text": "How many cases of covid 19 have been detected in India?"
+        },
+        {
+          "text": "What is the news?"
+        },
+        {
+          "text": "How many cases of corona virus has been detected?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Choropleth_Map",
+      "examples": [
+        {
+          "text": "Choropleth Map"
+        },
+        {
+          "text": "Choropleth Map Representation of Covid19 Stats"
+        },
+        {
+          "text": "Choropleth Map Representation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "cya"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Have a good day"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "see you later"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Folium-Map",
+      "examples": [
+        {
+          "text": "Folium Map"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Spread",
+      "examples": [
+        {
+          "text": "How does COVID19 spread?"
+        },
+        {
+          "text": "How does coronavirus spread?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bar-garph",
+      "examples": [
+        {
+          "text": "bar graph representation of coronavirus stats"
+        },
+        {
+          "text": "bar graph represntation of covid19 stats"
+        },
+        {
+          "text": "Bar graph"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "What's up"
+        },
+        {
+          "text": "Is anyone there?"
+        },
+        {
+          "text": "Good Day"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Line-chart",
+      "examples": [
+        {
+          "text": "Line chart"
+        },
+        {
+          "text": "Line chart Represenation of Covid19 stats"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Prevention",
+      "examples": [
+        {
+          "text": "How spread of coronavirus can be prevented"
+        },
+        {
+          "text": "What are its prevention"
+        },
+        {
+          "text": "How can we prevent it?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Waffle-chart",
+      "examples": [
+        {
+          "text": "Covid19 data in form of waffle chart"
+        },
+        {
+          "text": "Waffle chart"
+        },
+        {
+          "text": "Covid19 stats in form of waffle chart"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Seaborn",
+      "examples": [
+        {
+          "text": "Seaborn Representation on Covid19 stats"
+        },
+        {
+          "text": "Seaborn"
+        },
+        {
+          "text": "Seaborn Representation"
+        },
+        {
+          "text": "Seaborn representation on coronavirus stats"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Frequency-Polygon",
+      "examples": [
+        {
+          "text": "Frequency polygon"
+        },
+        {
+          "text": "Frequency polygon representation of covid19 stats"
+        },
+        {
+          "text": "Frequency polygon representation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Corona-virus",
+      "examples": [
+        {
+          "text": "why was covid-19 used to name this disease?"
+        },
+        {
+          "text": "what is corona virus?"
+        },
+        {
+          "text": "Is corona virus same as covid-19?"
+        },
+        {
+          "text": "Why is the disease being called coronavirus disease 2019, COVID-19?"
+        },
+        {
+          "text": "What is covid-19?"
+        },
+        {
+          "text": "What is coronavirus"
+        },
+        {
+          "text": "What is COVID19"
+        },
+        {
+          "text": "Is covid an abbreviation?"
+        },
+        {
+          "text": "corona"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Data_Visualization",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Line chart",
+          "synonyms": [
+            "Line chart",
+            "Line chart Representation",
+            "Line chart Representation of Covid19 stats",
+            "Line chart Representation of Coronavirus stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Folium Map",
+          "synonyms": [
+            "Folium Map",
+            "Folium Map Representataion",
+            "Folium Map Representation on Covid19 Stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bar Graph",
+          "synonyms": [
+            "Bar Graph Representation",
+            "Bar Graph",
+            "Bar Graph Representation on Covid19 stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Choropleth Map",
+          "synonyms": [
+            "Choropleth Map",
+            "Choropleth Map Representation",
+            "Choropleth Map Representation on Covid19 stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Waffle chart",
+          "synonyms": [
+            "Waffle chart",
+            "Waffle chart Representation on Covid19 stats",
+            "Waffle chart Representation "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Frequency Polygon",
+          "synonyms": [
+            "Frequency Polygon Representation",
+            "Frequency Polygon Representation of covid19 stats",
+            "Frequency Polygon Representation of coronavirus stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Seaborn",
+          "synonyms": [
+            "Seaborn Representation",
+            "Seaborn Representation on Covid19 stats",
+            "Seaborn Representation on coronavirus stats"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pie chart",
+          "synonyms": [
+            "Pie chart",
+            "Piechart",
+            "Pie chart Representation",
+            "Pie chart Representation of Covid19 stats ",
+            "Pie chart Representation of Coronavirus stats"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Seaborn",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Covid19 Cases analysis",
+          "synonyms": [
+            "Covid19 Cases analysis",
+            "Covid19 Cases analysis in India"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hospital beds",
+          "synonyms": [
+            "Hospital beds Analysis",
+            "Hospital beds Analysis in India"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Statewise Testing Detail",
+          "synonyms": [
+            "Statewise Testing Detail Analysis",
+            "Statewise Testing Detail Analysis in India"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Choropleth Map Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/G4m7MKKqV1KSSWfYeMe2OdUVLGodFgkp9ew-ks25GBaLoo-yQbccEB6xf6yN8USgq9cS5xF7RUwkiQjjQHmZnK5A2K-gZ1nf0pyrs0tAmt2jncEdWYiU44z78z6Xm_CVA3QlYxwHhln1ONyavIc2Y3JlGDlEYUDXKUSXT1ULtY3Kh3m3ohCJ4oLwIBWK2b0aOixFGPgG1Y-xodJxtOcV2jYY3nf1Zc9NJWxHkHMll9WRHRUwp6_SPcrYB-MrD4eAAtAEl1ek5E2GVFs-9U8JSXQTJC2jQ_PAbAwoKXPs_pgroU4CI7ZVYM7-1Ba9Q4tmujjd3etN526mrDB7pgjYhDvtxfQVKAc7bQtmqCivwdXnZmUzYXyvELGGlHIEEQu4bLZFo7_MapVUqWFwid498g8SOuc6OXCDQfzoAuEAd232hIF-dr449NjECawC9RsxaHvFxpR_UEypxj2cgHVdnFWp3s79QemgdABncS1jw88DlBbwkfpqkzvSCL3sMx-eDqYvnpZUmVVU_cqRwIemyumZbRQIpk9minVYo9Xe0gVoaGan73CiuR6WceKNxaLPi2lzbhB8Fqv7kgOd6VmWSpXeYnEcqlNhWvpHpjpFVdbAR-1yQGXnkhZSgpkhYZr7zlduMSdOtbMxCmXcmCBMUMttCumTKJqRGsr7pg0Bbnu_BwJX1uYkXvg8IDc=w1169-h657-no?authuser=1\" target=\"blank\">Choropleth Map Map</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3eapIPoNRLg396vcZZ50_KfEDTNKMTwxCRoLW-rDfKaGsf_pEBA1rRD6e2DHuDFYX4vCnJbTja3ACo7ZmsBjgY50U1nj5Oj186aqDnnA4eVn3M81B__CM19NC-fJVhV6qrR_1tNVJDpwDcizXkJDRp3=w1169-h657-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Choropleth Map)",
+      "dialog_node": "node_9_1589873653732",
+      "previous_sibling": "node_6_1589811187985"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Seaborn-Data Visualisation Technique on Different data sets",
+            "options": [
+              {
+                "label": "Covid19 Cases Analysis in India",
+                "value": {
+                  "input": {
+                    "text": "Covid19 Cases Analysis in India "
+                  }
+                }
+              },
+              {
+                "label": "Hospital beds",
+                "value": {
+                  "input": {
+                    "text": "Hospital beds"
+                  }
+                }
+              },
+              {
+                "label": "Statewise Testing Detail",
+                "value": {
+                  "input": {
+                    "text": "Statewise Testing Detail"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:Seaborn",
+      "dialog_node": "node_6_1589569736429",
+      "previous_sibling": "node_1_1589563730510"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Frequency Polygon Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dwilWTZpy4CIg7kACq2cJQTHiwrvwczMpNCPcKx79QQUyW0B2xg_l_nvbQuxU6-vNKCuCNQrxTc8-ERXLeRsKaCKvAuo-FSOgU8TKE9d8tqcy5G-DCSkkabrHLKvjZ5W7eC2So2v8t4PetLxFRLEg=w1366-h573-no?authuser=0\" target=\"blank\">Frequency Polygon</a> \n\nIf you want to see some other Data visualisation Technique applied on Covid19 stats Type Bar graph or Folium Map or Seaborn or Waffle chart or Choropleth Map or Pie chart"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dwilWTZpy4CIg7kACq2cJQTHiwrvwczMpNCPcKx79QQUyW0B2xg_l_nvbQuxU6-vNKCuCNQrxTc8-ERXLeRsKaCKvAuo-FSOgU8TKE9d8tqcy5G-DCSkkabrHLKvjZ5W7eC2So2v8t4PetLxFRLEg=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Frequency Polygon)",
+      "dialog_node": "node_1_1589563730510",
+      "previous_sibling": "node_8_1589522113609"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Bar Graph Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fH2LeV0bvFvqpGrsrNnx_9TFZDdnnDTnT4llrQf0nF6VgoabPzaKOlPcXblIWiNa3kagcsS0lB7ESeFuogOqolumJViHGjxfLk_Sv4mjzX1sFc4uuB9ugMKDXnRcboVZKzPAAQibSyP-LH5QYZkxY=w1366-h573-no?authuser=0\" target=\"blank\">Bar Graph</a> \nIf you want to see some other Data visualisation Technique applied on Covid19 stats Type Folium Map or Frequency Polygon or Seaborn or Waffle chart or Choropleth Map "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fH2LeV0bvFvqpGrsrNnx_9TFZDdnnDTnT4llrQf0nF6VgoabPzaKOlPcXblIWiNa3kagcsS0lB7ESeFuogOqolumJViHGjxfLk_Sv4mjzX1sFc4uuB9ugMKDXnRcboVZKzPAAQibSyP-LH5QYZkxY=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Bar Graph)",
+      "dialog_node": "node_2_1589522026972",
+      "previous_sibling": "node_1_1589521929979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the website of Ministry of Health and Welfare to get the current Stats of Covid19 in India   <a href=\"https://www.mohfw.gov.in/\" target=\"blank\">Stats Link</a> Refer the website of of WHO to get the current Stats of Covid19 in the World   <a href=\"https://www.who.int/emergencies/diseases/novel-coronavirus-2019\" target=\"blank\">Stats Link</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Do you want to see some Data Visualization technique applied on these Covid19 stats",
+            "options": [
+              {
+                "label": "Folium Map ",
+                "value": {
+                  "input": {
+                    "text": "Folium Map Representation"
+                  }
+                }
+              },
+              {
+                "label": "Waffle chart",
+                "value": {
+                  "input": {
+                    "text": "Waffle chart Representation"
+                  }
+                }
+              },
+              {
+                "label": "Choropleth Map",
+                "value": {
+                  "input": {
+                    "text": "Choropleth Map Representation"
+                  }
+                }
+              },
+              {
+                "label": "Bar Graph",
+                "value": {
+                  "input": {
+                    "text": "Bar Graph Representation"
+                  }
+                }
+              },
+              {
+                "label": "Frequency Polygon",
+                "value": {
+                  "input": {
+                    "text": "Frequency Polygon Representation"
+                  }
+                }
+              },
+              {
+                "label": "Seaborn",
+                "value": {
+                  "input": {
+                    "text": "Seaborn Representation"
+                  }
+                }
+              },
+              {
+                "label": "Pie chart",
+                "value": {
+                  "input": {
+                    "text": "Pie chart Representation"
+                  }
+                }
+              },
+              {
+                "label": "Line chart",
+                "value": {
+                  "input": {
+                    "text": "Line chart Representation"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "#Current-Stats",
+      "dialog_node": "response_4_1589476459633",
+      "previous_sibling": "node_9_1589873653732"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3czEqre_1AV5q7Hlj6FgtSi6jmocX_-npnKFmLG89R3LOdFaOXTjx3nPFVmsu-XLDgezlu0sDj7H5GmzP6sM6XPAC9K-7mZgfeedNB8jyIpL-bdry982QrTvbfEB1eelTL2MTAuZxmJDvnRnf_Wu7gt=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Line chart Representation of current Stats of Covid19  <a href=\"https://lh3.googleusercontent.com/nle51-HqxbN1yjdtuRbG_PvoAAIvaDXDv7b1b1mZg-O_9OL_RrTHVQDQYlUJxqiYs5_dA7u9SfF50fzYcqXLZqHXTPGyGmitC-TEdcY25uebfqxSppzLGFFA1FRVLI9c8ZctqUjQC2b3J7g35RlPfst6Ui2gDqTL81H7H_aOLIDAqix-4wLwRAzTOd3NsB5KSMKOF4Egv3tB9Y7xiSwJlwWWAcRjsx9eYC_lCBtITWym2eBGEIhZnrv_hHDvInP3Y0TB-V78rf7T93GxnsTrBJYSpidLe_J_PKLXDxNIfFzEfV82xJp37lL3VOXIUnLLjapJHBig7bTcrmwY8XAQR_hSidBi1h3sXz9W_ZDKS8OgTcvkYsnXjhDVukryTkmnkPga_kuSoYSDHxX_zaYv7QPAWkl3SpXLcMnszNTAm9zy_a39w-Rvk9QFNBB8aL0RNJig5uhzHXwgbIg06WX5osTJ8HXV9ctz8k4nqQfSCtJ1I_p3i7XMXAOkow9ZxhhshfS70jWCn0YvrpNh65r5ZcZGOhyVW9kgCoKhC1G23iHkZ8jz7XcObz6anZjzPgS3A5O91jjgabaERCp2LjYbuNfX1AXtwUjEX50aDTM-3nFaQPweu6N1f148F-SLv3Ikmb7sexfUUJLS3Mnk59ZhRHUuHIYeIysuz0USEBaZUstQgPvwCfFjqfqjATE=w1366-h573-no?authuser=1\" target=\"blank\">Line chart</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Line chart)",
+      "dialog_node": "node_6_1589811187985",
+      "previous_sibling": "node_5_1589734728516"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3f4MNKgsQPM1jejHpMRYzdbuWqI4Ur-uCCuesEDg5SC7ccoHrDwh77wbTCUHkLZjILNYvQEkP2OSpeUsxrEBT7dwxwoFTBMvfKcW4BoISb-DzippcOKcdIMJ1HJwyA3GqumFw1dLqpZmpgjYLdfw0-q=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Pie chart  Representation of current Stats of Covid19 <a href=\"https://lh3.googleusercontent.com/ufmapRmDY5-JqOGpCbw3DhrQxp_qYc-Puq0YmnYVRirr5reVgJdZPVzVs9V9nxL_m1-9UzeWL2rFXGl0Vw3cVvVyoGfufBBaQJnK5QYDa4Yqz1b7k0oUJWjAEbSuJtAuXkxRGhkEVxkoyywRba15473sX1CCqvczv-Ba88GPCpUV99kXE3EoFAUYFFShfjD4I6_Cd9XDfRoWyU8chPaL4cUoK0YYMUletTBG09O_bfJAqkzDt3lTCku1pSXXxk1OsERenYgf6B8mg05SoGiiktxeVLRqQsEaG4wigfe5fQ2aOo36pqcqaHu32jpu5qsPgzfbCX-FFBNMqxhr2qRYApIJ3vq242RyopsrQmUlpnx5Ejjn__xYE30WZLkSdwWZGIEPQJTVexxzIX3kXqSMDODFW_MlPuGZ5EVPHnrrImyQEBz6mcMRD1FZQLL6catdivuPSvVkbeSDsJlaxMza782_qSr7LskNZnB9tD89KxAcMsHc376SP-UXiGyvMq5-D5CPpC5Dl_4tj1hhH_-ObP6B8xrI7kQb84U0hxNK7kVl1YucDZT75M9JMXkP-6lFmx6dCK4123uA93pjNGVWtyAGxIDPnGe_8noszeWdttqIigjOEibSjLkzNY2k0G2DhcUNAqweTeAZaDYoVwKEkzk9Nc9nSrWP0-2h-t18QNwr9p3xQfyhsYniJKKg=w1366-h573-no?authuser=0\" target=\"blank\">Pie chart</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to see some other Data visualisation Technique applied on Covid19 stats Type Bar graph or Folium Map or Seaborn or Waffle chart or Choropleth map "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Pie chart)",
+      "dialog_node": "node_5_1589734728516",
+      "previous_sibling": "node_6_1589569736429"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image  link to get the Waffle Chart Representation  of current Stats of Covid19 in India  <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fLodo7SgUOpp6uIe8p9H9HfMervvdFlKnthQwIejKUc1E5biJahcEmtqR1FisvI8MfydvbUqBPQLbDNr-cdiSxp7BedZR_OdrhxYR4Z5t61gXvIPB-7OP0KovGFjcg3HtaWqQmu67oWPN94Q1stps=w1366-h573-no?authuser=0\" target=\"blank\">Waffle chart</a> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to check some other Data Visualization Technique just type Bar graph or Frequency Polygon or Seaborn or Folium Map or Choropleth Map "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fLodo7SgUOpp6uIe8p9H9HfMervvdFlKnthQwIejKUc1E5biJahcEmtqR1FisvI8MfydvbUqBPQLbDNr-cdiSxp7BedZR_OdrhxYR4Z5t61gXvIPB-7OP0KovGFjcg3HtaWqQmu67oWPN94Q1stps=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Waffle chart)",
+      "dialog_node": "node_8_1589522113609",
+      "previous_sibling": "node_2_1589522026972"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Folium Map Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fDYODksWEuNrXZmxvcy009vCa-nsHdcIXbT50lQl4lLNYOB-ZCpEZpw5ETXGG5hEeiw5T7r4FKDCau4clmyShle2cvhIWXuu07aP8AdQwFw7Xlq8Ss2eCQXUPbIPu2MAGpfzfOPoQ3DVJVY94Aqf4=w1366-h573-no?authuser=0\" target=\"blank\">Folium Map</a> \n"
+              },
+              {
+                "text": "If you want to see some other Data visualisation Technique applied on Covid19 stats Type Bar graph or Frequency Polygon or Seaborn or Waffle chart or Choropleth Map "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fDYODksWEuNrXZmxvcy009vCa-nsHdcIXbT50lQl4lLNYOB-ZCpEZpw5ETXGG5hEeiw5T7r4FKDCau4clmyShle2cvhIWXuu07aP8AdQwFw7Xlq8Ss2eCQXUPbIPu2MAGpfzfOPoQ3DVJVY94Aqf4=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589474431231",
+      "conditions": "@Data_Visualization:(Folium Map)",
+      "dialog_node": "node_1_1589521929979"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Covid19 cases Analysis -seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dI8aLRHsTZ0E5LEc8VhASpKsokNddF9UrONt8uCLPhyMIVF0epmmzeKmRd40SXPs1wy-dCNEcjLuBsRnzKfNIbcwbZNEs3L6vhIGhxa64Y9WcESfiDKZ9tnJ1h45Z1wGRcYvvam8Zp5b6OL9hGn10=w868-h657-no?authuser=0\" target=\"blank\">Covid19 cases Analysis </a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dI8aLRHsTZ0E5LEc8VhASpKsokNddF9UrONt8uCLPhyMIVF0epmmzeKmRd40SXPs1wy-dCNEcjLuBsRnzKfNIbcwbZNEs3L6vhIGhxa64Y9WcESfiDKZ9tnJ1h45Z1wGRcYvvam8Zp5b6OL9hGn10=w868-h657-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1589569736429",
+      "conditions": "@Seaborn:(Covid19 Cases Analysis)",
+      "dialog_node": "node_6_1589570867808",
+      "previous_sibling": "node_1_1589570737400"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the State wise testing detail -seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dqIdUBSdOQaYJAFyOUsAV4QDo-yOX0i_e7W5JfDmR7uhWovf23LE-lkYt-LdDDIRCVnsQcHyncxSLLEUExBzMqL4N59cwQFOn_iAq9SdOv_UaCOnSd0cpR42fC3zYeiLxUo569mNRBedZWTFdnlp4=w939-h657-no?authuser=0\" target=\"blank\">Statewise testing Detail</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dqIdUBSdOQaYJAFyOUsAV4QDo-yOX0i_e7W5JfDmR7uhWovf23LE-lkYt-LdDDIRCVnsQcHyncxSLLEUExBzMqL4N59cwQFOn_iAq9SdOv_UaCOnSd0cpR42fC3zYeiLxUo569mNRBedZWTFdnlp4=w939-h657-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1589569736429",
+      "conditions": "@Seaborn:(Statewise Testing Detail)",
+      "dialog_node": "node_1_1589570737400",
+      "previous_sibling": "node_9_1589570530772"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3eRbxWmPUj97cY3KOU7vN1brRo_c5B8KX_YfSKJn2sZEwXQpUzRTlU7ZAgJDdDYEd_s3jUXUJpbGhQN-jkev_5ugwu6A4YZasaPz0AhKuwDxGsEVJ-oL-zqeoSHxiMYDi0ztLf2fq_efWU_xZItFJk=w1366-h510-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Hospital Beds seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3eRbxWmPUj97cY3KOU7vN1brRo_c5B8KX_YfSKJn2sZEwXQpUzRTlU7ZAgJDdDYEd_s3jUXUJpbGhQN-jkev_5ugwu6A4YZasaPz0AhKuwDxGsEVJ-oL-zqeoSHxiMYDi0ztLf2fq_efWU_xZItFJk=w1366-h510-no?authuser=0\" target=\"blank\">Hospital bed analysis Seaborn</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1589569736429",
+      "conditions": "@Seaborn:(Hospital beds)",
+      "dialog_node": "node_9_1589570530772"
+    },
+    {
+      "type": "standard",
+      "title": "Testing Kit",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Fill this google form  <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSequJ_TMQWJduBZx6GKMuk19rD2k-3_lGvGmaTCBkPm45-HKQ/viewform?vc=0&c=0&w=1\" target=\"blank\"> Self-assessment test on Covid-19.</a> and know how prone are you of catching the infection. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Testing-kit",
+      "dialog_node": "node_5_1589805798204",
+      "previous_sibling": "node_5_1589811513559"
+    },
+    {
+      "type": "standard",
+      "title": "Folium map",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Folium Map Representation of current Stats of Covid19 in Indi <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fDYODksWEuNrXZmxvcy009vCa-nsHdcIXbT50lQl4lLNYOB-ZCpEZpw5ETXGG5hEeiw5T7r4FKDCau4clmyShle2cvhIWXuu07aP8AdQwFw7Xlq8Ss2eCQXUPbIPu2MAGpfzfOPoQ3DVJVY94Aqf4=w1366-h573-no?authuser=0\" target=\"blank\">Folium Map</a> \n\nIf you want to check some other Data Visualization Technique just type Waffle chart or Choropleth Map or Bar Graph"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fDYODksWEuNrXZmxvcy009vCa-nsHdcIXbT50lQl4lLNYOB-ZCpEZpw5ETXGG5hEeiw5T7r4FKDCau4clmyShle2cvhIWXuu07aP8AdQwFw7Xlq8Ss2eCQXUPbIPu2MAGpfzfOPoQ3DVJVY94Aqf4=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Folium-Map",
+      "dialog_node": "node_10_1589482201709",
+      "previous_sibling": "node_3_1589560294379"
+    },
+    {
+      "type": "standard",
+      "title": "Bar graph",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Bar Graph Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fH2LeV0bvFvqpGrsrNnx_9TFZDdnnDTnT4llrQf0nF6VgoabPzaKOlPcXblIWiNa3kagcsS0lB7ESeFuogOqolumJViHGjxfLk_Sv4mjzX1sFc4uuB9ugMKDXnRcboVZKzPAAQibSyP-LH5QYZkxY=w1366-h573-no?authuser=0\" target=\"blank\">Bar Graph</a> \n"
+              },
+              {
+                "text": "If you want to check some other Data Visualization Technique on Covid19 stats just type Folium Map or Choropleth Map  or Waffle chart"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to check other Data Visualization Techniqueon Covid19 stats just type Folium Map or Waffle chart or choropleth Map"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fH2LeV0bvFvqpGrsrNnx_9TFZDdnnDTnT4llrQf0nF6VgoabPzaKOlPcXblIWiNa3kagcsS0lB7ESeFuogOqolumJViHGjxfLk_Sv4mjzX1sFc4uuB9ugMKDXnRcboVZKzPAAQibSyP-LH5QYZkxY=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Bar-garph",
+      "dialog_node": "node_3_1589560294379",
+      "previous_sibling": "node_2_1589564379160"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1589465692312",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Hospital beds analysis Seaborn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Hospital Beds seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3eRbxWmPUj97cY3KOU7vN1brRo_c5B8KX_YfSKJn2sZEwXQpUzRTlU7ZAgJDdDYEd_s3jUXUJpbGhQN-jkev_5ugwu6A4YZasaPz0AhKuwDxGsEVJ-oL-zqeoSHxiMYDi0ztLf2fq_efWU_xZItFJk=w1366-h510-no?authuser=0\" target=\"blank\">Hospital Bed analysis</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3eRbxWmPUj97cY3KOU7vN1brRo_c5B8KX_YfSKJn2sZEwXQpUzRTlU7ZAgJDdDYEd_s3jUXUJpbGhQN-jkev_5ugwu6A4YZasaPz0AhKuwDxGsEVJ-oL-zqeoSHxiMYDi0ztLf2fq_efWU_xZItFJk=w1366-h510-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to see some other seaborn representation type  or Statewise testing detais or Covid19 cases Analysis"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Seaborn:(Hospital beds)",
+      "dialog_node": "node_5_1589618294715",
+      "previous_sibling": "node_9_1589618549328"
+    },
+    {
+      "type": "standard",
+      "title": "Choropleth Map",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Choropleth Map Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/G4m7MKKqV1KSSWfYeMe2OdUVLGodFgkp9ew-ks25GBaLoo-yQbccEB6xf6yN8USgq9cS5xF7RUwkiQjjQHmZnK5A2K-gZ1nf0pyrs0tAmt2jncEdWYiU44z78z6Xm_CVA3QlYxwHhln1ONyavIc2Y3JlGDlEYUDXKUSXT1ULtY3Kh3m3ohCJ4oLwIBWK2b0aOixFGPgG1Y-xodJxtOcV2jYY3nf1Zc9NJWxHkHMll9WRHRUwp6_SPcrYB-MrD4eAAtAEl1ek5E2GVFs-9U8JSXQTJC2jQ_PAbAwoKXPs_pgroU4CI7ZVYM7-1Ba9Q4tmujjd3etN526mrDB7pgjYhDvtxfQVKAc7bQtmqCivwdXnZmUzYXyvELGGlHIEEQu4bLZFo7_MapVUqWFwid498g8SOuc6OXCDQfzoAuEAd232hIF-dr449NjECawC9RsxaHvFxpR_UEypxj2cgHVdnFWp3s79QemgdABncS1jw88DlBbwkfpqkzvSCL3sMx-eDqYvnpZUmVVU_cqRwIemyumZbRQIpk9minVYo9Xe0gVoaGan73CiuR6WceKNxaLPi2lzbhB8Fqv7kgOd6VmWSpXeYnEcqlNhWvpHpjpFVdbAR-1yQGXnkhZSgpkhYZr7zlduMSdOtbMxCmXcmCBMUMttCumTKJqRGsr7pg0Bbnu_BwJX1uYkXvg8IDc=w1169-h657-no?authuser=1\" target=\"blank\">Choropleth Map Map</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3eapIPoNRLg396vcZZ50_KfEDTNKMTwxCRoLW-rDfKaGsf_pEBA1rRD6e2DHuDFYX4vCnJbTja3ACo7ZmsBjgY50U1nj5Oj186aqDnnA4eVn3M81B__CM19NC-fJVhV6qrR_1tNVJDpwDcizXkJDRp3=w1169-h657-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Choropleth_Map",
+      "dialog_node": "node_1_1589874111755",
+      "previous_sibling": "node_6_1589480175863"
+    },
+    {
+      "type": "standard",
+      "title": "Stats",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Current-Stats",
+      "dialog_node": "node_6_1589474431231",
+      "previous_sibling": "node_7_1589478806332"
+    },
+    {
+      "type": "standard",
+      "title": "Waffle_chart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image  link to get the Waffle Chart Representation  of current Stats of Covid19 in India  <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3fLodo7SgUOpp6uIe8p9H9HfMervvdFlKnthQwIejKUc1E5biJahcEmtqR1FisvI8MfydvbUqBPQLbDNr-cdiSxp7BedZR_OdrhxYR4Z5t61gXvIPB-7OP0KovGFjcg3HtaWqQmu67oWPN94Q1stps=w1366-h573-no?authuser=0\" target=\"blank\">Waffle chart</a> \n\nIf you want to check some other Data Visualization Technique on Covid19 stats just type Folium Map or Choropleth Map or Bar Graph"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3fLodo7SgUOpp6uIe8p9H9HfMervvdFlKnthQwIejKUc1E5biJahcEmtqR1FisvI8MfydvbUqBPQLbDNr-cdiSxp7BedZR_OdrhxYR4Z5t61gXvIPB-7OP0KovGFjcg3HtaWqQmu67oWPN94Q1stps=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Waffle-chart",
+      "dialog_node": "node_5_1589481989591",
+      "previous_sibling": "node_10_1589482201709"
+    },
+    {
+      "type": "standard",
+      "title": "Quarantine",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to Wikipedia ,A quarantine is a restriction on the movement of people and goods which is intended to prevent the spread of disease or pests. It is often used in connection to disease and illness, preventing the movement of those who may have been exposed to a communicable disease, but do not have a confirmed medical diagnosis. It is distinct from medical isolation, in which those confirmed to be infected with a communicable disease are isolated from the healthy population. Quarantine considerations are often one aspect of border control."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Quarantine",
+      "dialog_node": "node_7_1589469278007",
+      "previous_sibling": "node_9_1589470148168"
+    },
+    {
+      "type": "standard",
+      "title": "Covid19 cases analysis Seaborn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Covid19 cases Analysis -seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dI8aLRHsTZ0E5LEc8VhASpKsokNddF9UrONt8uCLPhyMIVF0epmmzeKmRd40SXPs1wy-dCNEcjLuBsRnzKfNIbcwbZNEs3L6vhIGhxa64Y9WcESfiDKZ9tnJ1h45Z1wGRcYvvam8Zp5b6OL9hGn10=w868-h657-no?authuser=0\" target=\"blank\">Covid19 cases Analysis </a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dI8aLRHsTZ0E5LEc8VhASpKsokNddF9UrONt8uCLPhyMIVF0epmmzeKmRd40SXPs1wy-dCNEcjLuBsRnzKfNIbcwbZNEs3L6vhIGhxa64Y9WcESfiDKZ9tnJ1h45Z1wGRcYvvam8Zp5b6OL9hGn10=w868-h657-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to see some other seaborn representation type Hospital bed analysis or Statewise testing detais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Seaborn:(Covid19 Cases Analysis)",
+      "dialog_node": "node_4_1589618617626",
+      "previous_sibling": "node_7_1589619559788"
+    },
+    {
+      "type": "standard",
+      "title": "Line chart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Line chart Representation of current Stats of Covid19  <a href=\"https://lh3.googleusercontent.com/nle51-HqxbN1yjdtuRbG_PvoAAIvaDXDv7b1b1mZg-O_9OL_RrTHVQDQYlUJxqiYs5_dA7u9SfF50fzYcqXLZqHXTPGyGmitC-TEdcY25uebfqxSppzLGFFA1FRVLI9c8ZctqUjQC2b3J7g35RlPfst6Ui2gDqTL81H7H_aOLIDAqix-4wLwRAzTOd3NsB5KSMKOF4Egv3tB9Y7xiSwJlwWWAcRjsx9eYC_lCBtITWym2eBGEIhZnrv_hHDvInP3Y0TB-V78rf7T93GxnsTrBJYSpidLe_J_PKLXDxNIfFzEfV82xJp37lL3VOXIUnLLjapJHBig7bTcrmwY8XAQR_hSidBi1h3sXz9W_ZDKS8OgTcvkYsnXjhDVukryTkmnkPga_kuSoYSDHxX_zaYv7QPAWkl3SpXLcMnszNTAm9zy_a39w-Rvk9QFNBB8aL0RNJig5uhzHXwgbIg06WX5osTJ8HXV9ctz8k4nqQfSCtJ1I_p3i7XMXAOkow9ZxhhshfS70jWCn0YvrpNh65r5ZcZGOhyVW9kgCoKhC1G23iHkZ8jz7XcObz6anZjzPgS3A5O91jjgabaERCp2LjYbuNfX1AXtwUjEX50aDTM-3nFaQPweu6N1f148F-SLv3Ikmb7sexfUUJLS3Mnk59ZhRHUuHIYeIysuz0USEBaZUstQgPvwCfFjqfqjATE=w1366-h573-no?authuser=1\" target=\"blank\">Line chart</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3czEqre_1AV5q7Hlj6FgtSi6jmocX_-npnKFmLG89R3LOdFaOXTjx3nPFVmsu-XLDgezlu0sDj7H5GmzP6sM6XPAC9K-7mZgfeedNB8jyIpL-bdry982QrTvbfEB1eelTL2MTAuZxmJDvnRnf_Wu7gt=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Line-chart",
+      "dialog_node": "node_5_1589811513559",
+      "previous_sibling": "node_3_1589811796151"
+    },
+    {
+      "type": "standard",
+      "title": "Spread",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth.People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is\nwhy it is important to stay more than 1 meter (3 feet) away from a person who is sick. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Spread",
+      "dialog_node": "node_7_1589478806332",
+      "previous_sibling": "node_5_1589479043205"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_7_1589618191809",
+      "previous_sibling": "node_5_1589618294715"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to WHO,Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Symptoms",
+      "dialog_node": "node_9_1589470148168",
+      "previous_sibling": "node_1_1589469982591"
+    },
+    {
+      "type": "standard",
+      "title": "Pie chart",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3f4MNKgsQPM1jejHpMRYzdbuWqI4Ur-uCCuesEDg5SC7ccoHrDwh77wbTCUHkLZjILNYvQEkP2OSpeUsxrEBT7dwxwoFTBMvfKcW4BoISb-DzippcOKcdIMJ1HJwyA3GqumFw1dLqpZmpgjYLdfw0-q=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Pie chart  Representation of current Stats of Covid19 <a href=\"https://lh3.googleusercontent.com/ufmapRmDY5-JqOGpCbw3DhrQxp_qYc-Puq0YmnYVRirr5reVgJdZPVzVs9V9nxL_m1-9UzeWL2rFXGl0Vw3cVvVyoGfufBBaQJnK5QYDa4Yqz1b7k0oUJWjAEbSuJtAuXkxRGhkEVxkoyywRba15473sX1CCqvczv-Ba88GPCpUV99kXE3EoFAUYFFShfjD4I6_Cd9XDfRoWyU8chPaL4cUoK0YYMUletTBG09O_bfJAqkzDt3lTCku1pSXXxk1OsERenYgf6B8mg05SoGiiktxeVLRqQsEaG4wigfe5fQ2aOo36pqcqaHu32jpu5qsPgzfbCX-FFBNMqxhr2qRYApIJ3vq242RyopsrQmUlpnx5Ejjn__xYE30WZLkSdwWZGIEPQJTVexxzIX3kXqSMDODFW_MlPuGZ5EVPHnrrImyQEBz6mcMRD1FZQLL6catdivuPSvVkbeSDsJlaxMza782_qSr7LskNZnB9tD89KxAcMsHc376SP-UXiGyvMq5-D5CPpC5Dl_4tj1hhH_-ObP6B8xrI7kQb84U0hxNK7kVl1YucDZT75M9JMXkP-6lFmx6dCK4123uA93pjNGVWtyAGxIDPnGe_8noszeWdttqIigjOEibSjLkzNY2k0G2DhcUNAqweTeAZaDYoVwKEkzk9Nc9nSrWP0-2h-t18QNwr9p3xQfyhsYniJKKg=w1366-h573-no?authuser=0\" target=\"blank\">Pie chart</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Pie-chart",
+      "dialog_node": "node_3_1589811796151",
+      "previous_sibling": "node_1_1589874111755"
+    },
+    {
+      "type": "standard",
+      "title": "What is Coronavirus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "According to wikipedia ,Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).It was first identified in December 2019 in Wuhan, China, and has since spread globally, resulting in an ongoing pandemic. As of 13 May 2020, more than 4.29 million cases have been reported across 187 countries and territories, resulting in more than 293,000 deaths. More than 1.5 million people have recovered."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Corona-virus",
+      "dialog_node": "node_1_1589469982591",
+      "previous_sibling": "node_6_1589474431231"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye intent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sad to see you go :"
+              },
+              {
+                "text": "Talk to you later"
+              },
+              {
+                "text": "Goodbye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Goodbye",
+      "dialog_node": "node_8_1589465692312",
+      "previous_sibling": "node_2_1589465837623"
+    },
+    {
+      "type": "standard",
+      "title": "Seaborn",
+      "output": {
+        "generic": [
+          {
+            "title": "Seaborn-Data Visualisation Technique on different stats",
+            "options": [
+              {
+                "label": "Covid19 Cases Analysis ",
+                "value": {
+                  "input": {
+                    "text": "Covid19 Cases Analysis  in India"
+                  }
+                }
+              },
+              {
+                "label": "Hospital Beds",
+                "value": {
+                  "input": {
+                    "text": "Hospital Beds "
+                  }
+                }
+              },
+              {
+                "label": "Statewise Testing Details",
+                "value": {
+                  "input": {
+                    "text": "Statewise Testing Details "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Seaborn",
+      "dialog_node": "node_7_1589619559788",
+      "previous_sibling": "node_5_1589805798204"
+    },
+    {
+      "type": "standard",
+      "title": "State wise testing detail Seaborn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the State wise testing detail -seaborn  Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dqIdUBSdOQaYJAFyOUsAV4QDo-yOX0i_e7W5JfDmR7uhWovf23LE-lkYt-LdDDIRCVnsQcHyncxSLLEUExBzMqL4N59cwQFOn_iAq9SdOv_UaCOnSd0cpR42fC3zYeiLxUo569mNRBedZWTFdnlp4=w939-h657-no?authuser=0\" target=\"blank\">Statewise testing Detail</a> \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dqIdUBSdOQaYJAFyOUsAV4QDo-yOX0i_e7W5JfDmR7uhWovf23LE-lkYt-LdDDIRCVnsQcHyncxSLLEUExBzMqL4N59cwQFOn_iAq9SdOv_UaCOnSd0cpR42fC3zYeiLxUo569mNRBedZWTFdnlp4=w939-h657-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you want to see some other seaborn representation type Hospital bed analysis or Covid19 cases analysis "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Seaborn:(Statewise Testing Detail)",
+      "dialog_node": "node_9_1589618549328",
+      "previous_sibling": "node_4_1589618617626"
+    },
+    {
+      "type": "standard",
+      "title": "Wecome intent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!"
+              },
+              {
+                "text": "Good to see you again!"
+              },
+              {
+                "text": "Hi there, how can I help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_2_1589465837623",
+      "previous_sibling": "node_7_1589469278007"
+    },
+    {
+      "type": "standard",
+      "title": "Prevention",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Protection measures for everyone\nStay aware of the latest information on the COVID-19 outbreak,available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news.\nYou can reduce your chances of being infected or spreading COVID19 by taking some simple precautions:\n• Regularly and thoroughly clean your hands with an alcoholbased hand rub or wash them with soap and water.\nWhy? Washing your hands with soap and water or using\nalcohol-based hand rub kills viruses that may be on your hands.\n• Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\nWhy? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.\n• Avoid touching eyes, nose and mouth.\nWhy? Hands touch many surfaces and can pick up viruses.\nOnce contaminated, hands can transfer the virus to your eyes,\nnose or mouth. From there, the virus can enter your body and\ncan make you sick.\n• Make sure you, and the people around you, follow good\nrespiratory hygiene. This means covering your mouth and nose\nwith your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\nWhy? Droplets spread virus. By following good respiratory\nhygiene you protect the people around you from viruses such as cold, flu and COVID-19.\n• Stay home if you feel unwell. If you have a fever, cough and\ndifficulty breathing, seek medical attention and call in advance.\nFollow the directions of your local health authority.\nWhy? National and local authorities will have the most up to date\ninformation on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.\n• Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places – especially if you are an older person or have diabetes, heart or lung disease. Why? You have a higher chance of catching COVID-19 in one of these areas.\nProtection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\no Follow the guidance outlined above (Protection measures for\neveryone)\no Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\nWhy? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and otherviruses.\no If you develop fever, cough and difficulty breathing, seek\nmedical advice promptly as this may be due to a respiratory\ninfection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.\nWhy? Calling in advance will allow your health care provider to\nquickly direct you to the right health facility. This will also help toprevent possible spread of COVID-19 and other viruses. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Prevention",
+      "dialog_node": "node_5_1589479043205",
+      "previous_sibling": "node_5_1589481989591"
+    },
+    {
+      "type": "standard",
+      "title": "Frequency Polygon",
+      "output": {
+        "generic": [
+          {
+            "source": "https://lh3.googleusercontent.com/pw/ACtC-3dwilWTZpy4CIg7kACq2cJQTHiwrvwczMpNCPcKx79QQUyW0B2xg_l_nvbQuxU6-vNKCuCNQrxTc8-ERXLeRsKaCKvAuo-FSOgU8TKE9d8tqcy5G-DCSkkabrHLKvjZ5W7eC2So2v8t4PetLxFRLEg=w1366-h573-no?authuser=0",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Refer the Image link to get the Frequency Polygon Representation of current Stats of Covid19 in India <a href=\"https://lh3.googleusercontent.com/pw/ACtC-3dwilWTZpy4CIg7kACq2cJQTHiwrvwczMpNCPcKx79QQUyW0B2xg_l_nvbQuxU6-vNKCuCNQrxTc8-ERXLeRsKaCKvAuo-FSOgU8TKE9d8tqcy5G-DCSkkabrHLKvjZ5W7eC2So2v8t4PetLxFRLEg=w1366-h573-no?authuser=0\" target=\"blank\">Frequency Polygon</a> \n\nIf you want to check other Data Visualization Technique just type Folium Map or Waffle chart or Choropleth Map or Bar Graph\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Frequency-Polygon",
+      "dialog_node": "node_2_1589564379160",
+      "previous_sibling": "node_7_1589618191809"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHhpTRXS9o5i9hBfFO6KiYCtY5Jmp_8LNOCJx_igmLuld-8dXi&usqp=CAU",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hi , How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_6_1589480175863"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Crisis",
+  "language": "en",
+  "description": ""
+}
